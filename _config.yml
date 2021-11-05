@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 title: La Trinians Champion League
+github:
+  is_project_page: false
