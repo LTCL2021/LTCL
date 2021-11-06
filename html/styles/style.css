@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
-    background-image: url("../../images/temp_bg.jpg");
-    background-size: cover;
+    /* background-image: url("../../images/temp_bg.jpg");
+    background-size: cover; */
 }
 
 .ul {
@@ -78,4 +78,9 @@ body {
 
 .link {
     color: rgb(55, 218, 47);
+}
+
+.divbg {
+    background-image: url("../../images/temp_bg.jpg");
+    background-size: cover;
 }
