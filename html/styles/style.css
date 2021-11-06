@@ -2,6 +2,7 @@ body {
     font-family: Roboto;
     background-image: url("https://ltcl2021.github.io/ltcl/images/temp_bg.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 p {
