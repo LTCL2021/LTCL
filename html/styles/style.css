@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
-    font-family: Roboto;
+    font-family: 'Roboto';
     background-image: url("https://ltcl2021.github.io/ltcl/images/temp_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 p {
-    font-family: Roboto;
+    font-family: 'Roboto';
+}
+
+nav {
+    width: auto;
+    height: auto;
 }
 
 .ul {
@@ -17,13 +24,15 @@ p {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #303030;
+    /* border: 1px solid #303030; */
     background-color: rgb(41, 41, 41);
+    box-shadow: none;
   }
   
 .li {
     float: left;
-    display: inline;
+    display: flex;
+    text-align: center;
 }
   
 .li a {
@@ -62,7 +71,7 @@ p {
 
 .h1 {
     font-size: 30px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     padding: 0 0px;
 }
@@ -86,4 +95,11 @@ p {
 
 .link {
     color: rgb(21, 160, 14);
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
