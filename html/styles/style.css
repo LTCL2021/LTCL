@@ -103,3 +103,57 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+div.wrap2 {
+  float: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+div.group input {
+  display: flex;
+}
+div.group input ~ div.content {
+  /* border: solid 1px black; */
+  display: none;
+  height: 350px;
+  margin: 0px 60px;
+  position: flex;
+  width: 300px;
+}
+div.group input:checked ~ div.content {
+  display: flex;
+  position: flex;
+}
+div.group input:checked ~ label.previous,
+div.group input:checked ~ label.next {
+  display: center;
+}
+div.group label {
+  background-color: #69c;
+  /* border: solid 1px black; */
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+.img {
+  margin: 0 auto;
+  position: center;
+  /* width: 100%; */
+  left: 0;
+  right: 0;
+}
+
+label {
+  font-size: 4em;
+  margin: 20 auto;
+}
+label.previous {
+  float: left;
+  padding: 0 0 30px 5px;
+}
+label.next {
+  float: right;
+  padding: 0 5px 25px 0;
+  text-align: right;
+}
